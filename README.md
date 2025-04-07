@@ -8,7 +8,7 @@ Vision Transformers (ViTs) are well-known for capturing the global context of im
 
 ## Multi-Gradient Image Transformer (MGiT)
 
-![MGiT](images/figure1.png "Visualization of MGiT Efficiency")
+![MGiT](MGiT.png "Visualization of MGiT Efficiency")
 
 
 
