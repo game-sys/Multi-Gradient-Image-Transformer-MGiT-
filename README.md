@@ -2,9 +2,9 @@
 
 Welcome to the official repository for the Multi-Gradient Image Transformer (MGiT), a novel approach for optimizing Vision Transformers (ViTs) on limited datasets by using a dual-training system with an auxiliary ViT model.
 
-## About the Project
+## Abstract
 
-This project builds on the findings presented in our paper where we introduced a new methodology for enhancing the training efficiency and generalization capabilities of ViTs, especially when dealing with smaller datasets. MGiT leverages a simpler auxiliary ViT model to stabilize and improve the learning trajectory of a primary ViT model without extensive modifications to the architecture.
+Vision Transformers (ViTs) are well-known for capturing the global context of images using Multi-head Self-Attention (MHSA). However, compared to Convolutional Neural Networks (CNNs), ViTs typically exhibit a reduced inductive bias and require a larger volume of training image data to learn local feature representations. While various methods like the integration of CNN features or advanced pre-training strategies have been proposed to introduce this inductive bias, they often require significant architectural modifications or rely heavily on expansive pre-training datasets. This paper introduces a novel approach for training ViTs on limited datasets without altering the ViT architecture. We propose the Multi-Gradient Image Transformer (MGiT), which utilizes a parallel training method with a compact auxiliary ViT to adaptively optimize the weights of the target ViT. This approach yields significant performance improvements across diverse datasets and training scenarios. Our findings demonstrate that MGiT enhances ViT efficiency more effectively than traditional training methods. Furthermore, the application of Jensen-Shannon (JS) Divergence validates the convergence and alignment of feature understanding between the primary and auxiliary ViTs, thereby stabilizing the training process.
 
 ### Key Features
 
